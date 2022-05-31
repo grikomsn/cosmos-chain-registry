@@ -6,6 +6,7 @@ Statically deployed Cosmos chain registry ⛓
 
 - API: https://registry.cosmos.griko.dev
 - Static: https://static.registry.cosmos.griko.dev
+- Registry: https://github.com/cosmos/chain-registry
 
 Static URL is deployed using GitHub Pages, while API URL is deployed using Vercel with rewrites, for example:
 
