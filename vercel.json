@@ -13,15 +13,15 @@
   "rewrites": [
     {
       "source": "/:name",
-      "destination": "https://github.com/grikomsn/cosmos-chain-registry/:name/chain.json"
+      "destination": "https://static.registry.cosmos.griko.dev/:name/chain.json"
     },
     {
       "source": "/:name/chain",
-      "destination": "https://github.com/grikomsn/cosmos-chain-registry/:name/chain.json"
+      "destination": "https://static.registry.cosmos.griko.dev/:name/chain.json"
     },
     {
       "source": "/:name/assetlist",
-      "destination": "https://github.com/grikomsn/cosmos-chain-registry/:name/assetlist.json"
+      "destination": "https://static.registry.cosmos.griko.dev/:name/assetlist.json"
     }
   ]
 }
