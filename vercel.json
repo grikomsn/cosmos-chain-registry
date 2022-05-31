@@ -28,6 +28,10 @@
       "destination": "https://static.registry.cosmos.griko.dev/:name/assetlist.json"
     },
     {
+      "source": "/:name/:dest",
+      "destination": "https://static.registry.cosmos.griko.dev/_IBC/:name-:dest.json"
+    },
+    {
       "source": "/:path*",
       "destination": "https://static.registry.cosmos.griko.dev/:path*"
     }
