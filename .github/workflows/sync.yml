@@ -1,0 +1,22 @@
+name: Sync
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy latest registry
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout remote registry
+        uses: actions/checkout@v3
+        with:
+          repository: cosmos/chain-registry
+          path: public
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: registry.cosmos.griko.dev
