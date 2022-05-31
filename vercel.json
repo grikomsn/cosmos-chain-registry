@@ -12,6 +12,10 @@
   ],
   "rewrites": [
     {
+      "source": "/(.github|.gitignore|_IBC|LICENSE|README.md|vercel.json)",
+      "destination": "/404"
+    },
+    {
       "source": "/:name",
       "destination": "https://static.registry.cosmos.griko.dev/:name/chain.json"
     },
