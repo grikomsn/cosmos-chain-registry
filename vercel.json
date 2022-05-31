@@ -22,6 +22,10 @@
     {
       "source": "/:name/assetlist",
       "destination": "https://static.registry.cosmos.griko.dev/:name/assetlist.json"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://static.registry.cosmos.griko.dev/:path*"
     }
   ]
 }
