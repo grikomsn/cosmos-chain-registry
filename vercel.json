@@ -12,7 +12,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(.github|.gitignore|_IBC|LICENSE|README.md|vercel.json)",
+      "source": "/(.github|.gitignore|_IBC|_non-cosmos|LICENSE|README.md|vercel.json)",
       "destination": "/404"
     },
     {
