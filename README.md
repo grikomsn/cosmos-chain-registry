@@ -1,23 +1,31 @@
 # cosmos-chain-registry
 
-Statically deployed Cosmos chain registry ⛓
+API and static mirror for [cosmos/chain-registry](https://github.com/cosmos/chain-registry) ⛓
+
+- [Endpoints](#endpoints)
+  - [Static Mirror](#static-mirror)
+  - [API](#api)
+- [Examples](#examples)
+- [License](#license)
 
 ## Endpoints
 
-- API: https://registry.cosmos.griko.dev
-- Static: https://static.registry.cosmos.griko.dev
-- Registry: https://github.com/cosmos/chain-registry
+### Static Mirror
 
-Static URL is deployed using GitHub Pages, while API URL is deployed using Vercel with rewrites, for example:
+Static mirror is deployed using GitHub Pages at https://static.registry.cosmos.griko.dev
+
+### API
+
+API is deployed using Vercel with rewrites at https://registry.cosmos.griko.dev. For example, this URL:
 
 ```md
-registry.cosmos.griko.dev/juno
+https://registry.cosmos.griko.dev/juno
 ```
 
 will rewrite to:
 
 ```md
-static.registry.cosmos.griko.dev/juno/chain.json
+https://static.registry.cosmos.griko.dev/juno/chain.json
 ```
 
 ## Examples
