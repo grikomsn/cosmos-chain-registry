@@ -17,23 +17,23 @@
     },
     {
       "source": "/:name",
-      "destination": "https://static.registry.cosmos.griko.dev/:name/chain.json"
+      "destination": "https://static.registry.cosmos.griko.id/:name/chain.json"
     },
     {
       "source": "/:name/chain",
-      "destination": "https://static.registry.cosmos.griko.dev/:name/chain.json"
+      "destination": "https://static.registry.cosmos.griko.id/:name/chain.json"
     },
     {
       "source": "/:name/assetlist",
-      "destination": "https://static.registry.cosmos.griko.dev/:name/assetlist.json"
+      "destination": "https://static.registry.cosmos.griko.id/:name/assetlist.json"
     },
     {
       "source": "/ibc/:name",
-      "destination": "https://static.registry.cosmos.griko.dev/_IBC/:name.json"
+      "destination": "https://static.registry.cosmos.griko.id/_IBC/:name.json"
     },
     {
       "source": "/:path*",
-      "destination": "https://static.registry.cosmos.griko.dev/:path*"
+      "destination": "https://static.registry.cosmos.griko.id/:path*"
     }
   ]
 }
